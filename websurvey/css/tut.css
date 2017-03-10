@@ -140,7 +140,7 @@
 }
 
 .contain .sidebar {
-	background-color:grey;
+	background-color:white;
 	height: 90px;
 	width: 100%;
 }
@@ -149,14 +149,14 @@
 	width: 1124px;
     overflow: hidden;
     border: 1px solid white;
-    background: grey;
+    background: white;
     height: 90px;
     margin: 0 auto;
    
 }
 
 .contain .sidebar .marqueen .col-md-9{
-	width:85%;
+	width:90%;
 	height:90px;
 	overflow:hidden;
 	text-align:center;
