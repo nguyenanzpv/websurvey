@@ -1,0 +1,176 @@
+	<!DOCTYPE html>
+	<html ng-app="websurvey">
+	<head>
+	<title>Web Survey</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/tut.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascript/angular-1.4.5/angular.min.js"></script> <!--single page-->
+	<script type="text/javascript" src="javascript/angular-1.4.5/angular-route.js"></script>
+	<script type="text/javascript" src="javascript/app/app.js"></script>
+	<script type="text/javascript" src="javascript/app/service/myservice.js"></script>
+	<script type="text/javascript" src="javascript/app/controller/index-controller.js"></script>
+	<script type="text/javascript" src="javascript/app/controller/article-controller.js"></script>
+	<script type="text/javascript" src="javascript/app/controller/contact-controller.js"></script>
+	<script type="text/javascript" src="javascript/app/controller/ebook-controller.js"></script>
+	<script type="text/javascript" src="javascript/app/controller/sub-article-controller.js"></script>
+	<script type="text/javascript" src="javascript/app/controller/login-controller.js"></script>
+	<script type="text/javascript" src="javascript/app/controller/register-controller.js"></script>
+	<script type="text/javascript" src="javascript/app/directive/my-directive.js"></script>
+
+	</head>
+	<body>
+	<div class="contain" ng-controller="IndexCtrl">
+	<div class="top">
+		<div class="col-md-8">
+			<img src="assets/logo.png">
+		</div>
+		<div class="col-md-4">
+			<div class="col-md-1">
+				<img src="assets/phone.png">
+			</div>
+			<div class="col-md-6">0937 113 118</div>
+		</div>
+		
+	</div>
+	<div class="content">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="assets/1.jpg" alt="hinh 1">
+					</div>
+
+					<div class="item">
+						<img src="assets/2.jpg" alt="hinh 2">
+					</div>
+
+					<div class="item">
+						<img src="assets/3.jpg" alt="hinh 3">
+					</div>
+
+					<div class="item">
+						<img src="assets/4.jpg" alt="hinh 4">
+					</div>
+
+					<div class="item">
+						<img src="assets/5.jpg" alt="hinh 5">
+					</div>
+				</div>
+
+			</div>
+			<div class="infor">
+				<div class="col-md-6">
+					<div class="chaomung">
+						<p>CHÀO MỪNG QUÝ KHÁCH</p>
+						<p>ĐẾN VỚI WEB SURVEY</p>
+					</div>
+					<div class="gioithieu">
+						<img src="assets/gioithieuchucnang1.png"
+							alt="gioi thieu chuc nang">
+					</div>
+
+				</div>
+				<div class="col-md-5">
+					<div class="iconlogin">
+						<img src="assets/dangnhap2.png" alt="icon dang nhap">
+					</div>
+					<div class="login">
+						<form>
+							<div class="txtuserID">
+								<input type="text" name="txtuserID" id="txtuderID"
+									placeholder="Tai khoan" class="form-control">
+							</div>
+						</form>
+						<form>
+							<div class="txtpassword">
+								<input type="text" name="txtpassword" id="txtpassword"
+									placeholder="Mat khau" class="form-control">
+							</div>
+						</form>
+						<button type="button" value="Dang Nhap" class="btndangNhap">ĐăngNhập</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="sidebar">
+		<div class="marqueen">
+			<div class="col-md-2">
+				<img src="assets/back.jpg" alt="back">
+				<img src="assets/nhasanxuat.jpg" alt="nha san xuat">
+			</div>
+			<div class="col-md-9">
+				<marquee behavior=slide direction=left scrollamount=5 loop=50>
+					<img src="assets/p1.jpg" alt="prn1"> 
+					<img src="assets/p2.jpg" alt="prn2">
+					<img src="assets/p3.jpg" alt="prn3">
+					<img src="assets/p4.jpg" alt="prn4">
+					<img src="assets/p5.jpg" alt="prn5">
+					<img src="assets/p6.jpg" alt="prn6">
+					<img src="assets/p7.jpg" alt="prn7">
+					<img src="assets/p8.jpg" alt="prn8">
+					<img src="assets/p9.jpg" alt="prn9">
+					<img src="assets/p10.jpg" alt="prn10">
+					<img src="assets/p11.jpg" alt="prn11">
+					<img src="assets/p12.jpg" alt="prn12">
+					<img src="assets/p13.jpg" alt="prn13">
+					<img src="assets/p14.jpg" alt="prn14">
+					<img src="assets/p15.jpg" alt="prn15">
+					<img src="assets/p16.jpg" alt="prn16">
+					<img src="assets/p17.jpg" alt="prn17">
+					<img src="assets/p18.jpg" alt="prn18">
+					<img src="assets/p19.jpg" alt="prn19">
+					<img src="assets/p20.jpg" alt="prn20">
+					<img src="assets/p21.jpg" alt="prn21">
+					<img src="assets/p22.jpg" alt="prn22">
+					<img src="assets/p23.jpg" alt="prn23">
+					<img src="assets/p24.jpg" alt="prn24">
+					<img src="assets/p25.jpg" alt="prn25">
+					<img src="assets/p26.jpg" alt="prn26">
+					<img src="assets/p27.jpg" alt="prn27">
+					<img src="assets/p28.jpg" alt="prn28">
+					<img src="assets/p29.jpg" alt="prn29">
+					<img src="assets/p30.jpg" alt="prn30">
+					<img src="assets/p31.jpg" alt="prn31">
+					<img src="assets/p32.jpg" alt="prn32">
+					<img src="assets/p33.jpg" alt="prn33">
+					<img src="assets/p34.jpg" alt="prn34">
+					<img src="assets/p35.jpg" alt="prn35">
+					<img src="assets/p36.jpg" alt="prn36">
+					<img src="assets/p37.jpg" alt="prn37">
+
+				</marquee>
+			</div>
+			<div class="col-md-1">
+				<img src="assets/next.jpg" alt="next">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="col-md-8">
+				<p>CÔNG TY TNHH THƯƠNG MẠI VÀ DƯỢC PHẨM SANG</p>
+				<p>77 Trần Khánh Dư, Phường Tân Định, Quận 1, TP. Hồ Chí Minh |
+					ĐT: (08) 3910 1913 | Email: sangpharmahcm@gmail.com</p>
+				<p>
+					<a>Thông tin pháp nhân </a> <span>|</span> <a> Thoả thuận và
+						Quy định </a>
+				</p>
+			</div>
+			<div class="col-md-4">
+				<img src="assets/footer_right.jpg" alt="footer_right">
+			</div>
+	</div>
+	</div>
+	</body>
+	</html>
+

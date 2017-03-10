@@ -1,0 +1,213 @@
+.contain .top{
+	background-color: white;
+    width: auto;
+    height: 70px;
+    border-top: 5px solid green;
+}
+
+.contain .top .col-md-8{
+	padding-left:65px;
+	width:78%;
+}
+
+.contain .top .col-md-4{
+	width:20%;
+}
+
+.contain .top .col-md-6{
+	height: 70px;
+	line-height: 70px;
+	font-size: 29px;
+	font-family: Myriad Pro Bold Condensed;
+	color: #194557;
+	text-align: right;
+	width:80%;
+}
+
+.contain .content {
+	background-color: white;
+	height: 423px;
+	width: auto
+}
+
+.contain .content #myCarousel{
+	height:422px;
+	width:100%;
+	position:absolute;
+	z-index=1;
+}
+
+.contain .content .infor{
+	height:262px;
+	width:80%;
+	position:absolute;
+	z-index=2;
+	margin:30px 196px 94px 66px;
+}
+
+.contain .content .infor .col-md-6{
+	width:550px;
+	height:300px;
+}
+
+.contain .content .infor .col-md-6 .chaomung{
+	color:white;
+	font-size:40px;
+	line-height:80px;
+	width:550px;
+	height:200px;
+}
+
+.contain .content .infor .col-md-6 .gioithieu{
+	display:block;
+	width:440px;
+	height:80px;
+	text-align:center;
+}
+
+.contain .content .infor .c.contain ol-md-5{
+	width:400px;
+	height:262px;
+}
+
+.contain .content .infor .col-md-5 .login{
+	width:384px;
+	height:262px;
+	background-color:black;
+	border:solid 1px black;
+	margin-top:-10px;
+	margin-left:170px;
+	opacity:0.5;
+}
+
+.contain .content .infor .col-md-5 .login .txtuserID{
+	width:298px;
+	height:42px;
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:solid 1px white;
+}
+
+.contain .content .infor .col-md-5 .login .txtuserID .form-control{
+	width:268px;
+	height:30px;
+	margin:5px 12px;
+	border:solid 1px black;
+	padding-left:0px;
+	background-color:black;
+	font-weight:600;
+}
+
+
+.contain .content .infor .col-md-5 .login .txtpassword{
+	width:298px;
+	height:42px;
+	margin-left:40px;
+	margin-right:40px;
+	margin-bottom:20px;
+	border:solid 1px white;
+}
+
+.contain .content .infor .col-md-5 .login .txtpassword .form-control{
+	width:268px;
+	height:30px;
+	margin:5px 12px;
+	border:solid 1px black;
+	padding-left:0px;
+	background-color:black;
+	font-weight:600;
+}
+
+.contain .content .infor .col-md-5 .login .btndangNhap{
+	width:298px;
+	height:42px;
+	margin-left:40px;
+	margin-right:40px;
+	background-color:#007700;
+	border-radius:6px;
+	color:white;
+	font-weight:600;
+	
+}
+
+.contain .content .infor .col-md-5 .iconlogin{
+	width:400px;
+	height:54px;
+	text-align:right;
+	
+}
+
+.contain .sidebar {
+	background-color:grey;
+	height: 90px;
+	width: 100%;
+}
+
+.contain .sidebar .marqueen{
+	width: 1124px;
+    overflow: hidden;
+    border: 1px solid white;
+    background: grey;
+    height: 90px;
+    margin: 0 auto;
+   
+}
+
+.contain .sidebar .marqueen .col-md-9{
+	width:85%;
+	height:90px;
+	overflow:hidden;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+.contain .sidebar .marqueen .col-md-2{
+	width:80px;
+	height:90px;
+	text-align:left;
+	padding:0;
+	margin:0;
+}
+
+.contain .sidebar .marqueen .col-md-1{
+	width:30px;
+	height:90px;
+	text-align:right;
+	padding:0;
+	margin:0;
+}
+
+.footer {
+	background-color: #eee;
+	height: 94px;
+	width: auto
+}
+
+.footer .col-md-8{
+	background-image: assets/footer_left.jpg;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#194557;
+	width:60%;
+	padding-top:10px;
+	padding-left:100px;
+}
+
+.footer .col-md-4{
+	width:40%;
+	text-align:center;
+	padding:0;
+}
+
+.footer .col-md-8 a{
+	cursor: pointer;
+}
+
+
+
+
+
+

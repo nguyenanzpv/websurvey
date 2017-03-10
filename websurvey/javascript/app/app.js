@@ -1,0 +1,43 @@
+var websurvey = angular.module('websurvey', [
+  'ngRoute',
+]);
+
+websurvey.config(['$routeProvider',function($routeProvider){
+	$routeProvider.
+		when('/articles',{
+			templateUrl:'views/articles.html',
+			controller:'ArticlesCtrl'
+		}).
+		when('/contact',{
+			templateUrl:'views/contact.html',
+			controller:'ContactCtrl'
+		}).
+		when('/articles/:articleId',{
+			templateUrl:'views/sub-articles.html',
+			controller:'SubArticleCtrl'
+		}).
+		when('/ebook',{
+			templateUrl:'views/ebook.html',
+			controller:'EbookCtrl'
+		}).
+		when('/bootstrap',{
+			templateUrl:'views/bootstrap.html',
+			controller:'BootstrapCtrl'
+		}).
+		when('/login',{
+			templateUrl:'views/login.html',
+			controller:'LoginCtrl'
+		}).
+		when('/register',{
+			templateUrl:'views/register.html',
+			controller:'RegisterCtrl'
+		}).
+		when('/dashboard',{
+			templateUrl:'views/dashboard.html',
+			controller:'DashboardCtrl'
+		}).
+		otherwise({
+			redirectTo:'/'
+		});
+
+}]);
