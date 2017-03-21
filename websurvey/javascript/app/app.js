@@ -4,7 +4,18 @@ var websurvey = angular.module('websurvey', [
 
 websurvey.config(['$routeProvider',function($routeProvider){
 	$routeProvider.
-		when('/articles',{
+		when('/test',{
+			templateUrl:'views/test.html',
+			controller:'TestCtrl'
+		}).
+		when('/home',{
+			templateUrl:'views/home.html',
+			controller:'HomeCtrl'
+		}).
+		otherwise({
+			redirectTo:'/'
+		});
+		/*when('/articles',{
 			templateUrl:'views/articles.html',
 			controller:'ArticlesCtrl'
 		}).
@@ -39,5 +50,5 @@ websurvey.config(['$routeProvider',function($routeProvider){
 		otherwise({
 			redirectTo:'/'
 		});
-
+		*/
 }]);
