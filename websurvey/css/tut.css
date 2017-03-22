@@ -257,11 +257,11 @@
 
 .test .box .hello button{
 	height:50px;
-	width:108%;
+	width:100%;
 }
 
 .test .box .hello ul{
-	min-width: 200px;
+	min-width: 211px;
 }
 
 .test .progressbar{
